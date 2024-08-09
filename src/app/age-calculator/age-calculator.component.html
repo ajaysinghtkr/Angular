@@ -1,0 +1,4 @@
+<p>age-calculator works!</p>
+<input #ageInput type="number" placeholder="Enter your age">
+<button (click)="calculateBirthYear(ageInput.value)">Show me year</button>
+<div *ngIf="birthYear">{{ birthYear }}</div>

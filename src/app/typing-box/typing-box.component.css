@@ -1,0 +1,10 @@
+/* typing-box.component.css */
+input {
+    font-size: 16px;
+    padding: 10px;
+  }
+  div {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
